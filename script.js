@@ -1,3 +1,5 @@
+let searh_input = document.getElementById("search_place")
+
 const product = [
     {
         id: 0,
@@ -56,3 +58,7 @@ const categories = [...new Set(product.map((item) => { return item }))]
             }).join('')
         };
         displayItem(product);
+
+        function clearPlace(){
+            searh_input.value = ""
+        }
