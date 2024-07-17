@@ -4,23 +4,46 @@ body{
 
 main{
     width: 100%;
-    height: 700px;
+    height: 1800px;
     display: flex;
     align-items: center;
     justify-content: space-around;
     flex-direction: column;
-    background-color: #14abcd;
+    background-color: #1fd6ff;
 }
 #price-list{
     width: 90%;
-    height: 500px;
+    height: 1600px;
     border: 1px solid black;
     display: flex;
+    flex-direction: column;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 .product-cards{
-    width: 250px;
-    height: 150px;
+    width: 100%;
+    height: 60px;
     border: 1px solid black;
+    display: flex;
+    justify-content: space-around;
 }
 
+.articuls{
+    width: 10%;
+}
+
+.product-category{
+    width: 40%;
+}
+
+.product-items{
+    width: 30%;
+}
+
+.product-units{
+    width: 10%;
+}
+
+.product-prices{
+    width: 10%;
+}
