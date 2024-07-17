@@ -274,51 +274,7 @@ const product = [
         unit: "шт",
         price: 8105
     },
-    {
-
-    },
-    {
-
-    },
-    {
-
-    },
-    {
-
-    },
-    {
-
-    },
-    {
-
-    },
-    {
-
-    },
-    {
-
-    },
-    {
-
-    },
-    {
-
-    },
-    {
-
-    },
-    {
-
-    },
-    {
-
-    },
-    {
-
-    },
-    {
-
-    },
+    
 ]
 const categories = [...new Set(product.map((item) => { return item }))]
 
